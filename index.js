@@ -7,8 +7,9 @@
     app.controller('MainCtrl',function($scope,toCsv){
         $scope.exportToCsv = function(){
             var header = "id,name";
-            var bodyData = "1,jcb\n"+"2,szz";
-            toCsv.export(header,bodyData,'');
+            var bodyData = "1,jcb\n"+"2,szz\n"+"3,everyone";
+            var name = 'today.csv';
+            toCsv.export(header,bodyData,name);
         }
     });
 
