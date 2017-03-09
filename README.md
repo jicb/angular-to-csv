@@ -18,3 +18,5 @@ var header = 'id,name'+'\n';
 var bodyData = '1,jcb\n2,szz\n3,nobody';
 toCsv.export(header,bodyData,name);
 ```
+##Example
+You can check out this live example here: https://jicb.github.io/angular-to-csv/
